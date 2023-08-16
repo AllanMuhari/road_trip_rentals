@@ -35,7 +35,7 @@ const Nav = () => {
       <ul
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#eeaee5] ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#cea7e2] ease-in-out duration-500"
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
@@ -48,6 +48,12 @@ const Nav = () => {
         <li className='p-4 border-b border-gray-600'>About</li>
         <li className='p-4'>Contact</li>
       </ul>
+      <button className='bg-blue-700 hover:bg-blue-800 rounded py-2'>
+        Sign up
+      </button>
+      <button className='bg-blue-700 hover:bg-blue-800 rounded py-2'>
+        Sign in
+      </button>
     </div>
   );
 };
