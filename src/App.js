@@ -1,9 +1,8 @@
 /** @format */
 
 import Nav from "./Components/Nav/Nav";
-import Context from "./Components/Content/Context";
+import Context from "./Components/Context/Context";
 import Location from "./Components/Location/Location";
-import Logos from "./Components/Logos/Logos";
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <Nav />
       <Context />
       <Location />
-      <Logos />
     </div>
   );
 }
