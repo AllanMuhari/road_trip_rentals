@@ -39,7 +39,7 @@ const Nav = () => {
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
-        <h1 className='w-full text-3xl font-bold text-black m-4'>
+        <h1 className='lg:hidden w-full text-3xl font-bold text-black m-4'>
           Rent a car With us
         </h1>
         <li className='p-4 border-b border-gray-600'>Home</li>
@@ -57,7 +57,7 @@ const Nav = () => {
         </div>
       </ul>
       <div className='hidden md:flex lg:flex'>
-        <button className='bg-blue-700 hover:bg-blue-800 rounded py-2'>
+        <button className='bg-blue-700 hover:bg-blue-800 rounded py-2 '>
           Sign up
         </button>
         <button className='bg-blue-700 hover:bg-blue-800 rounded py-2'>
