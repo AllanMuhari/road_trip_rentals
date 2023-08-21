@@ -2,7 +2,9 @@
 
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import image from "../../Assests/car/context.png"
+import image from "../../Assests/car/context.png";
+import apple from "../../Assests/Icons/apple.png";
+import google from "../../Assests/Icons/google-play.png";
 
 const Context = () => {
   return (
@@ -28,15 +30,21 @@ const Context = () => {
           At anytime you desire yo can safely acquire a <br></br> car without
           experiencing any from of hassle.
         </h2>
+      <div  className="flex m-7 p-3 gap-4 justify-center items-center">
+      <button className='w-[100px] h-[3rem] flex'>
+          <img className='w-[20px] justify-center items-center m-1 ' src={apple} alt=""></img>
+          <p className='text-sm font-semibold '>App Store</p>
+        </button>
+        <button className='w-[100px] h-[3rem] flex flex-row'>
+          <img className='w-[20px] justify-center items-center ' src={google} alt=""></img>
+          <p className='text-sm font-semibold '>Play Store</p>
+        </button>
+      </div>
       </div>
 
       {/* image */}
       <div className='flex m-auto'>
-        <img
-          src={image}
-          className='lg:w-[700px] bg-none'
-          alt=''
-        ></img>
+        <img src={image} className='lg:w-[700px] bg-none' alt=''></img>
       </div>
     </div>
   );
