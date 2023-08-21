@@ -29,7 +29,7 @@ const Nav = () => {
         <li className='p-4'>About</li>
         <li className='p-4'>Contact</li>
       </ul>
-      <div onClick={handleNav} className='block md:hidden'>
+      <div onClick={handleNav} className='block md:hidden cursor-pointer'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <ul
