@@ -44,7 +44,9 @@ const Nav = () => {
         </h1>
         <li className='p-4 border-b border-gray-600 cursor-pointer'>Home</li>
         <li className='p-4 border-b border-gray-600 cursor-pointer'>Company</li>
-        <li className='p-4 border-b border-gray-600 cursor-pointer'>Resources</li>
+        <li className='p-4 border-b border-gray-600 cursor-pointer'>
+          Resources
+        </li>
         <li className='p-4 border-b border-gray-600 cursor-pointer'>About</li>
         <li className='p-4 border-b border-gray-600 cursor-pointer'>Contact</li>
         <div className='flex p-5 m-3 g-4'>
