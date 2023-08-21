@@ -35,18 +35,18 @@ const Nav = () => {
       <ul
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#1e1b4b] ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[80%] h-full border-r border-r-gray-900 bg-[#1e1b4b] ease-in-out duration-500"
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
         <h1 className='lg:hidden w-full text-3xl font-bold text-black m-4'>
           Rent a car With us
         </h1>
-        <li className='p-4 border-b border-gray-600'>Home</li>
-        <li className='p-4 border-b border-gray-600'>Company</li>
-        <li className='p-4 border-b border-gray-600'>Resources</li>
-        <li className='p-4 border-b border-gray-600'>About</li>
-        <li className='p-4 border-b border-gray-600'>Contact</li>
+        <li className='p-4 border-b border-gray-600 cursor-pointer'>Home</li>
+        <li className='p-4 border-b border-gray-600 cursor-pointer'>Company</li>
+        <li className='p-4 border-b border-gray-600 cursor-pointer'>Resources</li>
+        <li className='p-4 border-b border-gray-600 cursor-pointer'>About</li>
+        <li className='p-4 border-b border-gray-600 cursor-pointer'>Contact</li>
         <div className='flex p-5 m-3 g-4'>
           <button className='bg-blue-700 hover:bg-blue-800 rounded py-2'>
             Sign up
