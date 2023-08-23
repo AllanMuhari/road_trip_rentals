@@ -9,7 +9,7 @@ import Ford from "../../Assests/Icons/ford_logo_icon_169155.png"
 
 const Content = () => {
   return (
-    <div className='bg-white h-44 rounded-lg flex mt-[-90px] sm:w-[100%] cursor-pointer'>
+    <div className='bg-white  rounded-lg flex mt-[-90px] h-72 sm:w-[100%] cursor-pointer'>
       <div className='flex m-auto w-[40px]'>
         <img src={Nissan} alt="" />
       </div>

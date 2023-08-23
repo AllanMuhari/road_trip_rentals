@@ -41,7 +41,7 @@ const Context = () => {
           </button>
           <button className='w-[100px] h-[3rem] flex flex-row'>
             <img
-              className='w-[20px] justify-center items-center '
+              className='w-[20px] justify-center items-center m-1 '
               src={google}
               alt=''
             ></img>
