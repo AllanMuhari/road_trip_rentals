@@ -58,8 +58,8 @@ const Nav = () => {
           </button>
         </div>
       </ul>
-      <div className='hidden md:flex lg:flex'>
-        <button className='bg-blue-700 hover:bg-blue-800 rounded py-2 '>
+      <div className='hidden md:flex lg:flex lg:gap-4'>
+        <button className='bg-blue-700 hover:bg-blue-800 rounded py-2'>
           Sign up
         </button>
         <button className='bg-blue-700 hover:bg-blue-800 rounded py-2'>
