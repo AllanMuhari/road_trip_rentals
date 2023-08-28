@@ -43,7 +43,7 @@ const Content = () => {
             alt=''
           ></img>
           <img
-            className=' border-blue-900 border-2 rounded-md p-2 '
+            className=' border-blue-900 border-2 rounded-md p-1'
             src={Calender}
             alt=''
           ></img>
