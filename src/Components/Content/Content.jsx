@@ -15,7 +15,7 @@ import Calender from "../..//Assests/Icons/calendar.png";
 const Content = () => {
   return (
     <div className='bg-white  rounded-lg flex flex-col  mt-[-90px] h-auto sm:w-[100%] cursor-pointer'>
-      <div className='flex justify-between m-auto gap-2 lg:gap-52 pt-8'>
+      <div className='flex justify-between m-auto gap-1 lg:gap-52 pt-8'>
         <img src={Nissan} alt='' />
         <img src={Mazda} alt='' />
         <img src={Lexus} alt='' />
@@ -31,7 +31,7 @@ const Content = () => {
         <h2 className='m-2 flex justify-center text-2xl'>
           Rent a car with the following three steps
         </h2>
-        <div className='flex sm:w-12 bg-white sm:gap-[10rem] rounded-md border-2 m-3 lg:w-[10rem] lg:h-[10rem] '>
+        <div className='flex sm:w-8  bg-white sm:gap-[10rem] rounded-md border-2 lg:ml-[7rem] lg:w-[10rem] lg:h-[10rem] lg:justify-center lg:gap-[30rem]'>
           <img
             className=' border-blue-900 border-2 rounded-md '
             src={Location}
