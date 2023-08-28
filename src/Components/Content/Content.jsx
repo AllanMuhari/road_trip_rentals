@@ -14,8 +14,8 @@ import Calender from "../..//Assests/Icons/calendar.png";
 
 const Content = () => {
   return (
-    <div className='bg-white  rounded-lg flex flex-col  mt-[-90px] h-auto sm:w-[100%] cursor-pointer'>
-      <div className='flex justify-between m-auto gap-1 lg:gap-52 pt-8'>
+    <div className='bg-white  rounded-lg  m-auto flex flex-col max-w-[1640px] mt-[-80px] p-3 h-auto sm:w-[100%] cursor-pointer lg:mr-[8.95rem]'>
+      <div className='flex justify-between  gap-1 lg:gap-50 pt-8'>
         <img src={Nissan} alt='' />
         <img src={Mazda} alt='' />
         <img src={Lexus} alt='' />
