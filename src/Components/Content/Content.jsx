@@ -31,7 +31,7 @@ const Content = () => {
         <h2 className='m-2 flex justify-center text-2xl'>
           Rent a car with the following three steps
         </h2>
-        <div className='flex bg-white rounded-md border-2 border-red-900 '>
+        <div className='flex bg-white rounded-md'>
           <img
             className=' border-blue-900 border-2 rounded-md w-[3rem] h-[3rem] m-auto '
             src={Location}
