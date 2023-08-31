@@ -4,7 +4,7 @@ import React from "react";
 
 const Location = () => {
   return (
-    <div className='bg-[#6565c0] max-w-[1640px] m-5 h-44 rounded-lg flex lg:ml-[120px]'>
+    <div className='bg-[#6565c0] max-w-[1640px] lg:m-auto h-44 rounded-lg flex  mx-2'>
       <div className='m-auto'>
         <h1 className='flex text-1xl font-bold text-gray-700 w-2 '>LOCATION</h1>
         <input

@@ -14,8 +14,8 @@ import Calender from "../..//Assests/Icons/calendar.png";
 
 const Content = () => {
   return (
-    <div className='bg-white  rounded-lg  m-auto flex flex-col max-w-[1640px] mt-[-80px] p-3 h-auto sm:w-[100%] cursor-pointer lg:mr-[8.95rem]'>
-      <div className='flex justify-between  gap-1 lg:gap-50 pt-8'>
+    <div className='bg-white  rounded-lg lg:m-auto flex flex-col max-w-[1640px] mx-2 lg:mt-[-60px] mt-[-80px] p-3 h-auto cursor-pointer'>
+      <div className='flex lg:ml-[7rem]  w-12 gap-4 lg:gap-[8rem] pt-8 lg:w-20 '>
         <img src={Nissan} alt='' />
         <img src={Mazda} alt='' />
         <img src={Lexus} alt='' />
@@ -24,26 +24,26 @@ const Content = () => {
         <img src={Honda} alt='' />
         <img src={Ford} alt='' />
       </div>
-      <div className='m-auto'>
+      <div className='  m-auto rounded-lg '>
         <h1 className='text-center flex text-xl font-bold justify-center '>
           How it works
         </h1>
         <h2 className='m-2 flex justify-center text-2xl'>
           Rent a car with the following three steps
         </h2>
-        <div className='flex sm:w-8  bg-white sm:gap-[10rem] rounded-md border-2 lg:ml-[7rem] lg:w-[10rem] lg:h-[10rem] lg:justify-center lg:gap-[30rem]'>
+        <div className='flex bg-white rounded-md border-2 border-red-900 '>
           <img
-            className=' border-blue-900 border-2 rounded-md '
+            className=' border-blue-900 border-2 rounded-md w-[3rem] h-[3rem] m-auto '
             src={Location}
             alt=''
           ></img>
           <img
-            className=' border-blue-900 border-2 rounded-md '
+            className=' border-blue-900 border-2 rounded-md w-[3rem] h-[3rem] m-auto '
             src={Car}
             alt=''
           ></img>
           <img
-            className=' border-blue-900 border-2 rounded-md p-1'
+            className=' border-blue-900 border-2 rounded-md w-[3rem] h-[3rem] m-auto '
             src={Calender}
             alt=''
           ></img>
