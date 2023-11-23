@@ -18,11 +18,11 @@ const Nav = () => {
           src='https://cdn-icons-png.flaticon.com/512/95/95145.png?w=826&t=st=1691938209~exp=1691938809~hmac=c6c6b70736ad72ebcac635233a3137ad8838595aab7116bdadaa25c65829c586'
           alt=''
         ></img>
-        <h1 className='  flex text-2xl lg:text-3xl font-bold text-black m-3'>
+        <h1 className='flex text-2xl lg:text-3xl font-bold text-black'>
           Rent a ride with us
         </h1>
       </div>
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex cursor-pointer text-black md:gap-0.5'>
         <li className='p-4'>Home</li>
         <li className='p-4'>Company</li>
         <li className='p-4'>Resources</li>
@@ -35,8 +35,8 @@ const Nav = () => {
       <ul
         className={
           nav
-            ? "fixed left-0 top-0 w-[80%] h-full border-r border-r-gray-900 bg-[#1e1b4b] ease-in-out duration-500"
-            : "ease-in-out duration-500 fixed left-[-100%]"
+            ? "fixed left-0 top-0 w-[80%] h-full border-r  border-r-gray-900 bg-[#1e1b4b] ease-in-out duration-500"
+            : "ease-in-out duration-500 fixed left-[-100%] "
         }
       >
         <h1 className='lg:hidden w-full text-3xl font-bold text-black m-4'>
@@ -49,8 +49,8 @@ const Nav = () => {
         </li>
         <li className='p-4 border-b border-gray-600 cursor-pointer'>About</li>
         <li className='p-4 border-b border-gray-600 cursor-pointer'>Contact</li>
-        <div className='flex p-5 m-3 g-4'>
-          <button className='bg-blue-700 hover:bg-blue-800 rounded py-2'>
+        <div className='flex p-5 m-3 g-4  '>
+          <button className='bg-blue-700 hover:bg-blue-800 rounded py-2 '>
             Sign up
           </button>
           <button className='bg-blue-700 hover:bg-blue-800 rounded py-2'>
@@ -58,11 +58,11 @@ const Nav = () => {
           </button>
         </div>
       </ul>
-      <div className='hidden md:flex lg:flex lg:gap-4'>
-        <button className='bg-blue-700 hover:bg-blue-800 rounded py-2'>
+      <div className='hidden md:flex md:gap-1 lg:gap-4 md:h-13'>
+        <button className='bg-blue-700 hover:bg-blue-900 rounded '>
           Sign up
         </button>
-        <button className='bg-blue-700 hover:bg-blue-800 rounded py-2'>
+        <button className='bg-blue-700 hover:bg-blue-900 rounded'>
           Sign in
         </button>
       </div>

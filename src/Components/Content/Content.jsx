@@ -15,7 +15,7 @@ import Calender from "../..//Assests/Icons/calendar.png";
 const Content = () => {
   return (
     <div className='bg-white  rounded-lg lg:m-auto flex flex-col max-w-[1640px] mx-2 lg:mt-[-60px] mt-[-80px] p-3 h-auto cursor-pointer'>
-      <div className='flex lg:ml-[7rem]  w-12 gap-4 lg:gap-[8rem] pt-8 lg:w-20 '>
+      <div className='flex lg:ml-[7rem]  w-12 gap-0.5 lg:gap-[8rem] pt-8 lg:w-20 md:gap-7 md:ml-[9rem]'>
         <img src={Nissan} alt='' />
         <img src={Mazda} alt='' />
         <img src={Lexus} alt='' />
@@ -31,7 +31,7 @@ const Content = () => {
         <h2 className='m-2 flex justify-center text-2xl'>
           Rent a car with the following three steps
         </h2>
-        <div className='flex bg-white rounded-md'>
+        <div className='flex bg-white rounded-md '>
           <img
             className=' border-blue-900 border-2 rounded-md w-[3rem] h-[3rem] m-auto '
             src={Location}

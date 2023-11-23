@@ -17,7 +17,7 @@ const Context = () => {
         </h1>
         <span className='md:text4xl sm:text-3xl text-xl font-bold pl-4 ml-2'>
           <Typewriter
-            words={["Find", "Book", "Rent"]}
+            words={["1- Find", "2- Book", "3- Rent"]}
             loop={5}
             cursor
             cursorStyle='_'
